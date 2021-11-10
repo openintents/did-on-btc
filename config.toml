@@ -1,0 +1,26 @@
+baseURL = "https://did-on-btc.org/"
+languageCode = "en-us"
+title = "Decenzentralized Identities on Bitcoin"
+
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+theme = "hugo-scroll"
+
+
+[params]
+    copyright = "© OpenIntents"
+
+    description = "Own your identity"
+
+    favicon = "images/favicon.png"
+
+    images = ["images/did-placeholder.jpg"]
+
+    title = "DID on BTC"
+
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    # hidedesignbyline = true
+
+    [params.meta]
+        keywords = "decentrentralized, did, bitcoin, user-owned, internet"
